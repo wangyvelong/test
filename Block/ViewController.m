@@ -5,23 +5,27 @@
 //  Created by wangylw on 16/9/6.
 //  Copyright © 2016年 wangyl. All rights reserved.
 //
-
 #import "ViewController.h"
 
-@interface ViewController ()
+typedef void(^myBlock)(NSString * retur);
 
+@interface ViewController () {
+  
+
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  NSLog(@"===========");
 }
-
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+- (void)blockOne:(NSString *)index1
+          sucess:(myBlock)success
+           faile:(myBlock)faile
+{
+  
 }
 
 @end

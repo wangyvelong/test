@@ -15,6 +15,7 @@
 		332270E71D7EA500009BA4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332270E51D7EA500009BA4E6 /* LaunchScreen.storyboard */; };
 		332270F21D7EA500009BA4E6 /* BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332270F11D7EA500009BA4E6 /* BlockTests.m */; };
 		332270FD1D7EA500009BA4E6 /* BlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332270FC1D7EA500009BA4E6 /* BlockUITests.m */; };
+		3359585C1D93B3D00082CC33 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3359585B1D93B3D00082CC33 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		332270F81D7EA500009BA4E6 /* BlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		332270FC1D7EA500009BA4E6 /* BlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockUITests.m; sourceTree = "<group>"; };
 		332270FE1D7EA500009BA4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3359585B1D93B3D00082CC33 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				332270DB1D7EA500009BA4E6 /* AppDelegate.m */,
 				332270DD1D7EA500009BA4E6 /* ViewController.h */,
 				332270DE1D7EA500009BA4E6 /* ViewController.m */,
+				3359585B1D93B3D00082CC33 /* icon.png */,
 				332270E01D7EA500009BA4E6 /* Main.storyboard */,
 				332270E31D7EA500009BA4E6 /* Assets.xcassets */,
 				332270E51D7EA500009BA4E6 /* LaunchScreen.storyboard */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3359585C1D93B3D00082CC33 /* icon.png in Resources */,
 				332270E71D7EA500009BA4E6 /* LaunchScreen.storyboard in Resources */,
 				332270E41D7EA500009BA4E6 /* Assets.xcassets in Resources */,
 				332270E21D7EA500009BA4E6 /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 				332271031D7EA500009BA4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		332271041D7EA500009BA4E6 /* Build configuration list for PBXNativeTarget "BlockTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				332271061D7EA500009BA4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		332271071D7EA500009BA4E6 /* Build configuration list for PBXNativeTarget "BlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				332271091D7EA500009BA4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

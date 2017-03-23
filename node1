@@ -1,0 +1,24 @@
+Last login: Wed Sep  7 14:52:01 on ttys003
+wyl:~ wangylw$ brew install node
+==> Downloading https://homebrew.bintray.com/bottles/node-6.2.0.el_capitan.bottl
+######################################################################## 100.0%
+==> Pouring node-6.2.0.el_capitan.bottle.tar.gz
+==> Caveats
+Please note by default only English locale support is provided. If you need
+full locale support you should either rebuild with full icu:
+  `brew reinstall node --with-full-icu`
+or add full icu data at runtime following:
+  https://github.com/nodejs/node/wiki/Intl#using-and-customizing-the-small-icu-build
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/6.2.0: 3,979 files, 40.3M
+wyl:~ wangylw$ 
+
+
+
+
+
+
+
